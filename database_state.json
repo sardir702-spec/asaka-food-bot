@@ -1,0 +1,129 @@
+{
+    "users": {
+        "8135353129": {
+            "id": 1,
+            "telegram_id": 8135353129,
+            "fullname": ".",
+            "username": "sardorxcoder",
+            "phone": null,
+            "lang": "uz",
+            "registered_at": "2026-07-11 06:42"
+        },
+        "7032024055": {
+            "id": 2,
+            "telegram_id": 7032024055,
+            "fullname": "Coderixa",
+            "username": null,
+            "phone": null,
+            "lang": "ru",
+            "registered_at": "2026-07-11 06:45"
+        }
+    },
+    "products": [],
+    "orders": [],
+    "carts": {},
+    "admins": [
+        8135353129,
+        7752032178
+    ],
+    "couriers": [],
+    "admin_contact": {
+        "name": "Fast Food Admin",
+        "phone": "+998 90 123 45 67",
+        "username": "@admin"
+    },
+    "categories": [],
+    "admin_accounts": [
+        {
+            "login": "opetito321",
+            "password": "opetittox555",
+            "name": "Asosiy Admin",
+            "is_superadmin": true
+        },
+        {
+            "login": "2",
+            "password": "3",
+            "name": "seul mool Admin",
+            "is_superadmin": false,
+            "company_id": 1
+        }
+    ],
+    "admin_sessions": {
+        "8135353129": "opetito321",
+        "7752032178": "2"
+    },
+    "companies": [
+        {
+            "id": 1,
+            "name": "seul mool",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "osh",
+                    "category": "ss",
+                    "description": "s",
+                    "price": 100,
+                    "is_active": 1,
+                    "emoji": "🍽",
+                    "image": "images/AgACAgIAAxkBAAIBJGpRoEtEUW86oJJtX62zIYgSfqnWAAIPHmsbQNSJSlWAq09wa-cAAQEAAwIAA3kAAzwE.jpg",
+                    "company_id": 1
+                }
+            ],
+            "categories": [],
+            "couriers": [],
+            "orders": [
+                {
+                    "id": 1,
+                    "user_id": 7032024055,
+                    "total_price": 400,
+                    "location": "40.666104,72.256578",
+                    "phone": "+998934152360",
+                    "status": "Qabul qilindi va tayyorlanmoqda",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "osh",
+                            "price": 100,
+                            "quantity": 4
+                        }
+                    ],
+                    "order_type": "Masofaviy",
+                    "room_table": "Yo'q",
+                    "comment": "Yo'q",
+                    "courier_id": null,
+                    "company_id": 1,
+                    "created_at": "11.07.2026 06:47"
+                },
+                {
+                    "id": 2,
+                    "user_id": 7032024055,
+                    "total_price": 500,
+                    "location": "Kiritilmagan",
+                    "phone": "+998934152360",
+                    "status": "Qabul qilindi va tayyorlanmoqda",
+                    "items": [
+                        {
+                            "id": 1,
+                            "name": "osh",
+                            "price": 100,
+                            "quantity": 5
+                        }
+                    ],
+                    "order_type": "Masofaviy",
+                    "room_table": "Yo'q",
+                    "comment": "Нет",
+                    "courier_id": null,
+                    "company_id": 1,
+                    "created_at": "11.07.2026 06:55"
+                }
+            ],
+            "admin_contact": {
+                "name": "seul mool",
+                "phone": "",
+                "username": ""
+            },
+            "is_frozen": false,
+            "created_at": "2026-07-11 06:42"
+        }
+    ]
+}

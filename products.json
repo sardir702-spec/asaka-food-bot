@@ -1,0 +1,24 @@
+{
+    "categories": [],
+    "products": [],
+    "companies": [
+        {
+            "id": 1,
+            "name": "seul mool",
+            "categories": [],
+            "products": [
+                {
+                    "id": 1,
+                    "name": "osh",
+                    "category": "ss",
+                    "description": "s",
+                    "price": 100,
+                    "is_active": 1,
+                    "emoji": "🍽",
+                    "image": "images/AgACAgIAAxkBAAIBJGpRoEtEUW86oJJtX62zIYgSfqnWAAIPHmsbQNSJSlWAq09wa-cAAQEAAwIAA3kAAzwE.jpg",
+                    "company_id": 1
+                }
+            ]
+        }
+    ]
+}
