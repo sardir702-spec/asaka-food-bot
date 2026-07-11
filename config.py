@@ -11,7 +11,7 @@ _admins_env = os.environ.get("ADMINS", "123456789")
 ADMINS = [int(x.strip()) for x in _admins_env.split(",") if x.strip().isdigit()]
 
 # Telegram Web App uchun URL (Sizning yangi serveringiz)
-WEBAPP_URL = os.environ.get("WEBAPP_URL", "https://web-production-8ce49.up.railway.app")
+WEBAPP_URL = os.environ.get("WEBAPP_URL", "https://web-production-5c6b3.up.railway.app/")
 
 # Ma'lumotlar bazasi parametrlari
 DB_HOST = os.environ.get("DB_HOST", "localhost")
